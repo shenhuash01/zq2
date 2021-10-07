@@ -1,0 +1,149 @@
+﻿{
+  "name": "中青看点定时任务订阅2",
+  "desc": "无",
+  "date": "2021-08-05 20:32:08",
+  "author": "https://t.me/ShaolinTemple2",
+  "resource": "https://raw.githubusercontent.com/shenhuash01/zq/main/zq_cron2.json",
+  "list": [
+    {
+      "name": "中青签到2",
+      "type": "cron",
+      "time": "15 2 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/shenhuash01/zq/main/zqqd2.js"
+      }
+    },
+    {
+      "name": "中青文章2",
+      "type": "cron",
+      "time": "30 7,12,18 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/shenhuash01/zq/main/zqwz2.js"
+      }
+    },
+    {
+     "name": "中青看看赚2",
+      "type": "cron",
+      "time": "45 9 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/shenhuash01/zq/main/zqkkz2.js"
+      }
+    },
+    {
+      "name": "中青火爆转发2",
+      "type": "cron",
+      "time": "15 6,12,18 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/shenhuash01/zq/main/zq_share2.js"
+      }
+    },
+    {
+      "name": "中青福利视频2",
+      "type": "cron",
+      "time": "20 21 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/shenhuash01/zq/main/zq_Adv_video2.js"
+      }
+    },
+    {
+      "name": "中青每日任务宝箱领取2",
+      "type": "cron",
+      "time": "15 22 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/shenhuash01/zq/main/zqbox2.js"
+      }
+    },
+    {
+      "name": "中青每日收益统计2",
+      "type": "cron",
+      "time": "15 23 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/shenhuash01/zq/main/zq_today_score2.js"
+      }
+    },
+    {
+      "name": "中青好友签到红包2",
+      "type": "cron",
+      "time": "15 7 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/shenhuash01/zq/main/zq_friendSign2.js"
+      }
+    },
+    {
+      "name": "中青抽奖2",
+      "type": "cron",
+      "time": "34 22 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/shenhuash01/zq/main/zq_Rotary2.js"
+      }
+    },
+    {
+      "name": "中青打卡赚2",
+      "type": "cron",
+      "time": "34 5,9 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/shenhuash01/zq/main/zq_wakeup2.js"
+      }
+    },
+    {
+      "name": "中青搜索赚2",
+      "type": "cron",
+      "time": "35 5 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/shenhuash01/zq/main/zqssz2.js"
+      }
+    },
+    {
+      "name": "中青浏览赚2",
+      "type": "cron",
+      "time": "34 6 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/shenhuash01/zq/main/zqllz2.js"
+      }
+    },
+    {
+      "name": "中青阅读翻倍2",
+      "type": "cron",
+      "time": "34 5 * * 2",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/shenhuash01/zq/main/zq_double2.js"
+      }
+    },
+    {
+      "name": "中青自动提现2",
+      "type": "cron",
+      "time": "25 10 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/shenhuash01/zq/main/zq_withdraw2.js"
+      }
+    }
+
+  ]
+}
